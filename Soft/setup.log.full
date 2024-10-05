@@ -1,0 +1,1029 @@
+2024/08/10 11:29:09 Starting cygwin install, version 2.931
+2024/08/10 11:29:09 User has backup/restore rights
+2024/08/10 11:29:09 User has symlink creation right
+2024/08/10 11:29:09 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2024/08/10 11:29:09 Current Directory: F:\OTHER_MY_PROJECTS\Translator-Windows\Soft
+Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2024/08/10 11:29:11 source: network install
+2024/08/10 11:29:16 source: from local dir
+2024/08/10 11:29:20 root: C:\cygwin64 system
+2024/08/10 11:29:20 Changing gid to Administrators
+2024/08/10 11:31:36 source: download
+2024/08/10 11:31:38 Selected local directory: F:\OTHER_MY_PROJECTS\Translator-Windows\Soft
+2024/08/10 11:31:43 source: download
+2024/08/10 11:31:44 Selected local directory: F:\OTHER_MY_PROJECTS\Translator-Windows\Soft
+2024/08/10 11:31:47 net: Preconfig
+Cached mirror list unavailable
+User-Agent: default is "Cygwin-Setup/2.931 (Windows NT 10.0.19045;Win64;0419;SymLinkPriv)"
+Fetched URL: https://cygwin.com/mirrors.lst
+2024/08/10 11:31:55 site: https://mirrors.163.com/cygwin/
+Fetched URL: https://mirrors.163.com/cygwin/x86_64/setup.zst.sig
+Fetched URL: https://mirrors.163.com/cygwin/x86_64/setup.zst
+signature: sig_type 0, pk_alg 1, hash_alg 8
+signature: tried key cygwin, returned 0x00000000 Success
+2024/08/10 11:31:59 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+.ini setup_version is 2.932, our setup_version is 2.931
+2024/08/10 11:31:59 mbox note: This setup is version 2.931, but setup.ini claims version 2.932 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2024/08/10 11:32:08 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2024/08/10 11:32:09 solving: 38 tasks, update: yes, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: number of solvables: 54336, memory used: 2971 K
+libsolv: number of ids: 27934 + 54342
+libsolv: string memory used: 109 K array + 476 K data,  rel memory used: 636 K array
+libsolv: string hash memory: 256 K, rel hash memory : 512 K
+libsolv: provide ids: 11808
+libsolv: provide space needed: 40965 + 108684
+libsolv: shrunk whatprovidesdata from 40965 to 40543
+libsolv: shrunk whatprovidesauxdata from 40965 to 29154
+libsolv: whatprovides memory used: 325 K id array, 582 K data
+libsolv: whatprovidesaux memory used: 109 K id array, 113 K data
+libsolv: WARNING: pool_addfileprovides was not called, this may result in slow operation
+libsolv: lazywhatprovidesq size: 0 entries
+libsolv: createwhatprovides took 0 ms
+libsolv: obsoletes data: 1 entries
+libsolv: added 1152 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 236 of 27085 installable solvables considered for solving
+libsolv: pruned rules from 1153 to 1153
+libsolv:   binary: 455
+libsolv:   normal: 697, 5327 literals
+libsolv: pkg rule memory used: 27 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 1152 pkg rules, 2 * 2 update rules, 38 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 28 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 0 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   install   crypto-policies-20190218-1.any
+libsolv: 
+libsolv:   install   which-2.20-2.any
+libsolv: 
+libsolv:   install   _autorebase-001091-1.any
+libsolv: 
+libsolv:   install   alternatives-1.26-1.any
+libsolv: 
+libsolv:   install   base-cygwin-3.8-2.any
+libsolv: 
+libsolv:   install   base-files-4.3-3.any
+libsolv: 
+libsolv:   install   bash-5.2.21-1.any
+libsolv: 
+libsolv:   install   coreutils-9.0-1.any
+libsolv: 
+libsolv:   install   cygutils-1.4.17-1.any
+libsolv: 
+libsolv:   install   cygwin-3.5.3-1.any
+libsolv: 
+libsolv:   install   dash-0.5.12-5.any
+libsolv: 
+libsolv:   install   diffutils-3.10-1.any
+libsolv: 
+libsolv:   install   editrights-1.04-1.any
+libsolv: 
+libsolv:   install   file-5.44-1.any
+libsolv: 
+libsolv:   install   findutils-4.10.0-1.any
+libsolv: 
+libsolv:   install   gawk-5.3.0-1.any
+libsolv: 
+libsolv:   install   getent-2.18.90-5.any
+libsolv: 
+libsolv:   install   grep-3.11-1.any
+libsolv: 
+libsolv:   install   gzip-1.13-1.any
+libsolv: 
+libsolv:   install   hostname-3.13-1.any
+libsolv: 
+libsolv:   install   info-7.1-1.any
+libsolv: 
+libsolv:   install   ipc-utils-1.1-1.any
+libsolv: 
+libsolv:   install   libreadline7-8.2-2.any
+libsolv: 
+libsolv:   install   libssl1.1-1.1.1w-1.any
+libsolv: 
+libsolv:   install   libssl3-3.0.14-1.any
+libsolv: 
+libsolv:   install   login-1.13-1.any
+libsolv: 
+libsolv:   install   man-db-2.12.1-1.any
+libsolv: 
+libsolv:   install   libgdbm6-1.18.1-1.any
+libsolv: 
+libsolv:   install   mintty-3.7.4-1.any
+libsolv: 
+libsolv:   install   ncurses-6.5+20240427-1.any
+libsolv: 
+libsolv:   install   openssl-3.0.14-1.any
+libsolv: 
+libsolv:   install   rebase-4.6.6-1.any
+libsolv: 
+libsolv:   install   run-1.3.4-2.any
+libsolv: 
+libsolv:   install   sed-4.9-1.any
+libsolv: 
+libsolv:   install   tar-1.35-2.any
+libsolv: 
+libsolv:   install   terminfo-6.5+20240427-1.any
+libsolv: 
+libsolv:   install   tzdata-2024a-1.any
+libsolv: 
+libsolv:   install   util-linux-2.39.3-2.any
+libsolv: 
+libsolv:   install   vim-minimal-9.0.2155-2.any
+libsolv: 
+libsolv:   install   libiconv2-1.17-1.any
+libsolv: 
+libsolv:   install   libncursesw10-6.5+20240427-1.any
+libsolv: 
+libsolv:   install   libblkid1-2.39.3-2.any
+libsolv: 
+libsolv:   install   libfdisk1-2.39.3-2.any
+libsolv: 
+libsolv:   install   libintl8-0.22.4-1.any
+libsolv: 
+libsolv:   install   libsmartcols1-2.39.3-2.any
+libsolv: 
+libsolv:   install   libuuid1-2.39.3-2.any
+libsolv: 
+libsolv:   install   zlib0-1.3.1-1.any
+libsolv: 
+libsolv:   install   bzip2-1.0.8-1.any
+libsolv: 
+libsolv:   install   xz-5.6.2-1.any
+libsolv: 
+libsolv:   install   zstd-1.5.6-1.any
+libsolv: 
+libsolv:   install   groff-1.23.0-1.any
+libsolv: 
+libsolv:   install   less-643-1.any
+libsolv: 
+libsolv:   install   libpipeline1-1.5.6-1.any
+libsolv: 
+libsolv:   install   libgcc1-12.4.0-3.any
+libsolv: 
+libsolv:   install   ca-certificates-2024.2.66_v8.0.302-1.any
+libsolv: 
+libsolv:   install   libpcre1-8.45-1.any
+libsolv: 
+libsolv:   install   libstdc++6-12.4.0-3.any
+libsolv: 
+libsolv:   install   libuchardet0-0.0.8-1.any
+libsolv: 
+libsolv:   install   libpcre2_8_0-10.44-1.any
+libsolv: 
+libsolv:   install   libargp-20230708-2.any
+libsolv: 
+libsolv:   install   libgmp10-6.3.0-1.any
+libsolv: 
+libsolv:   install   libmpfr6-4.2.1-1.any
+libsolv: 
+libsolv:   install   libbz2_1-1.0.8-1.any
+libsolv: 
+libsolv:   install   liblzma5-5.6.2-1.any
+libsolv: 
+libsolv:   install   libzstd1-1.5.6-1.any
+libsolv: 
+libsolv:   install   libpopt0-1.19-1.any
+libsolv: 
+libsolv:   install   libattr1-2.5.1-1.20.g0981a7bfe487.any
+libsolv: 
+libsolv:   install   tzcode-2024a-1.any
+libsolv: 
+libsolv:   install   p11-kit-0.23.20-1.any
+libsolv: 
+libsolv:   install   p11-kit-trust-0.23.20-1.any
+libsolv: 
+libsolv:   install   liblz4_1-1.9.4-1.any
+libsolv: 
+libsolv:   install   libp11-kit0-0.23.20-1.any
+libsolv: 
+libsolv:   install   libtasn1_6-4.14-1.any
+libsolv: 
+libsolv:   install   libpopt-common-1.19-1.any
+libsolv: 
+libsolv:   install   libffi6-3.2.1-2.any
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.19045.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 75
+libsolv: edges: 201, edge space: 237
+libsolv: edge creation took 0 ms
+libsolv: cycle: --> 
+libsolv: cygwin-3.5.3-1.any ##401##> 
+libsolv: zlib0-1.3.1-1.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: cygwin-3.5.3-1.any ##401##> 
+libsolv: libzstd1-1.5.6-1.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: cygwin-3.5.3-1.any ##401##> 
+libsolv: libintl8-0.22.4-1.any --400--> 
+libsolv: libiconv2-1.17-1.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: cygwin-3.5.3-1.any ##401##> 
+libsolv: libgcc1-12.4.0-3.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: bash-5.2.21-1.any ##401##> 
+libsolv: libreadline7-8.2-2.any --400--> 
+libsolv: libncursesw10-6.5+20240427-1.any --400--> 
+libsolv: cygwin-3.5.3-1.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: bash-5.2.21-1.any ##401##> 
+libsolv: libintl8-0.22.4-1.any --400--> 
+libsolv: libiconv2-1.17-1.any --400--> 
+libsolv: cygwin-3.5.3-1.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: bash-5.2.21-1.any ##401##> 
+libsolv: libiconv2-1.17-1.any --400--> 
+libsolv: cygwin-3.5.3-1.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: bash-5.2.21-1.any ##401##> 
+libsolv: cygwin-3.5.3-1.any --400--> 
+libsolv: 
+libsolv: cycles broken: 8
+libsolv: cycle breaking took 0 ms
+libsolv: cycle edge creation took 0 ms
+libsolv: invedge space: 615
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 75 installed packages:
+libsolv:   - _autorebase-001091-1.any
+libsolv:   - alternatives-1.26-1.any
+libsolv:   - base-cygwin-3.8-2.any
+libsolv:   - base-files-4.3-3.any
+libsolv:   - bash-5.2.21-1.any
+libsolv:   - bzip2-1.0.8-1.any
+libsolv:   - ca-certificates-2024.2.66_v8.0.302-1.any
+libsolv:   - coreutils-9.0-1.any
+libsolv:   - crypto-policies-20190218-1.any
+libsolv:   - cygutils-1.4.17-1.any
+libsolv:   - cygwin-3.5.3-1.any
+libsolv:   - dash-0.5.12-5.any
+libsolv:   - diffutils-3.10-1.any
+libsolv:   - editrights-1.04-1.any
+libsolv:   - file-5.44-1.any
+libsolv:   - findutils-4.10.0-1.any
+libsolv:   - gawk-5.3.0-1.any
+libsolv:   - getent-2.18.90-5.any
+libsolv:   - grep-3.11-1.any
+libsolv:   - groff-1.23.0-1.any
+libsolv:   - gzip-1.13-1.any
+libsolv:   - hostname-3.13-1.any
+libsolv:   - info-7.1-1.any
+libsolv:   - ipc-utils-1.1-1.any
+libsolv:   - less-643-1.any
+libsolv:   - libargp-20230708-2.any
+libsolv:   - libattr1-2.5.1-1.20.g0981a7bfe487.any
+libsolv:   - libblkid1-2.39.3-2.any
+libsolv:   - libbz2_1-1.0.8-1.any
+libsolv:   - libfdisk1-2.39.3-2.any
+libsolv:   - libffi6-3.2.1-2.any
+libsolv:   - libgcc1-12.4.0-3.any
+libsolv:   - libgdbm6-1.18.1-1.any
+libsolv:   - libgmp10-6.3.0-1.any
+libsolv:   - libiconv2-1.17-1.any
+libsolv:   - libintl8-0.22.4-1.any
+libsolv:   - liblz4_1-1.9.4-1.any
+libsolv:   - liblzma5-5.6.2-1.any
+libsolv:   - libmpfr6-4.2.1-1.any
+libsolv:   - libncursesw10-6.5+20240427-1.any
+libsolv:   - libp11-kit0-0.23.20-1.any
+libsolv:   - libpcre1-8.45-1.any
+libsolv:   - libpcre2_8_0-10.44-1.any
+libsolv:   - libpipeline1-1.5.6-1.any
+libsolv:   - libpopt-common-1.19-1.any
+libsolv:   - libpopt0-1.19-1.any
+libsolv:   - libreadline7-8.2-2.any
+libsolv:   - libsmartcols1-2.39.3-2.any
+libsolv:   - libssl1.1-1.1.1w-1.any
+libsolv:   - libssl3-3.0.14-1.any
+libsolv:   - libstdc++6-12.4.0-3.any
+libsolv:   - libtasn1_6-4.14-1.any
+libsolv:   - libuchardet0-0.0.8-1.any
+libsolv:   - libuuid1-2.39.3-2.any
+libsolv:   - libzstd1-1.5.6-1.any
+libsolv:   - login-1.13-1.any
+libsolv:   - man-db-2.12.1-1.any
+libsolv:   - mintty-3.7.4-1.any
+libsolv:   - ncurses-6.5+20240427-1.any
+libsolv:   - openssl-3.0.14-1.any
+libsolv:   - p11-kit-0.23.20-1.any
+libsolv:   - p11-kit-trust-0.23.20-1.any
+libsolv:   - rebase-4.6.6-1.any
+libsolv:   - run-1.3.4-2.any
+libsolv:   - sed-4.9-1.any
+libsolv:   - tar-1.35-2.any
+libsolv:   - terminfo-6.5+20240427-1.any
+libsolv:   - tzcode-2024a-1.any
+libsolv:   - tzdata-2024a-1.any
+libsolv:   - util-linux-2.39.3-2.any
+libsolv:   - vim-minimal-9.0.2155-2.any
+libsolv:   - which-2.20-2.any
+libsolv:   - xz-5.6.2-1.any
+libsolv:   - zlib0-1.3.1-1.any
+libsolv:   - zstd-1.5.6-1.any
+libsolv: 
+2024/08/10 11:32:35 solving: 75 tasks, update: no, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: obsoletes data: 1 entries
+libsolv: added 0 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 236 of 27085 installable solvables considered for solving
+libsolv: pkg rule memory used: 27 K
+libsolv: pkg rule creation took 16 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 1152 pkg rules, 2 * 2 update rules, 75 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 28 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 16 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   install   _autorebase-001091-1.any
+libsolv: 
+libsolv:   install   alternatives-1.26-1.any
+libsolv: 
+libsolv:   install   base-cygwin-3.8-2.any
+libsolv: 
+libsolv:   install   base-files-4.3-3.any
+libsolv: 
+libsolv:   install   bash-5.2.21-1.any
+libsolv: 
+libsolv:   install   bzip2-1.0.8-1.any
+libsolv: 
+libsolv:   install   ca-certificates-2024.2.66_v8.0.302-1.any
+libsolv: 
+libsolv:   install   coreutils-9.0-1.any
+libsolv: 
+libsolv:   install   crypto-policies-20190218-1.any
+libsolv: 
+libsolv:   install   cygutils-1.4.17-1.any
+libsolv: 
+libsolv:   install   cygwin-3.5.3-1.any
+libsolv: 
+libsolv:   install   dash-0.5.12-5.any
+libsolv: 
+libsolv:   install   diffutils-3.10-1.any
+libsolv: 
+libsolv:   install   editrights-1.04-1.any
+libsolv: 
+libsolv:   install   file-5.44-1.any
+libsolv: 
+libsolv:   install   findutils-4.10.0-1.any
+libsolv: 
+libsolv:   install   gawk-5.3.0-1.any
+libsolv: 
+libsolv:   install   getent-2.18.90-5.any
+libsolv: 
+libsolv:   install   grep-3.11-1.any
+libsolv: 
+libsolv:   install   groff-1.23.0-1.any
+libsolv: 
+libsolv:   install   gzip-1.13-1.any
+libsolv: 
+libsolv:   install   hostname-3.13-1.any
+libsolv: 
+libsolv:   install   info-7.1-1.any
+libsolv: 
+libsolv:   install   ipc-utils-1.1-1.any
+libsolv: 
+libsolv:   install   less-643-1.any
+libsolv: 
+libsolv:   install   libargp-20230708-2.any
+libsolv: 
+libsolv:   install   libattr1-2.5.1-1.20.g0981a7bfe487.any
+libsolv: 
+libsolv:   install   libblkid1-2.39.3-2.any
+libsolv: 
+libsolv:   install   libbz2_1-1.0.8-1.any
+libsolv: 
+libsolv:   install   libfdisk1-2.39.3-2.any
+libsolv: 
+libsolv:   install   libffi6-3.2.1-2.any
+libsolv: 
+libsolv:   install   libgcc1-12.4.0-3.any
+libsolv: 
+libsolv:   install   libgdbm6-1.18.1-1.any
+libsolv: 
+libsolv:   install   libgmp10-6.3.0-1.any
+libsolv: 
+libsolv:   install   libiconv2-1.17-1.any
+libsolv: 
+libsolv:   install   libintl8-0.22.4-1.any
+libsolv: 
+libsolv:   install   liblz4_1-1.9.4-1.any
+libsolv: 
+libsolv:   install   liblzma5-5.6.2-1.any
+libsolv: 
+libsolv:   install   libmpfr6-4.2.1-1.any
+libsolv: 
+libsolv:   install   libncursesw10-6.5+20240427-1.any
+libsolv: 
+libsolv:   install   libp11-kit0-0.23.20-1.any
+libsolv: 
+libsolv:   install   libpcre1-8.45-1.any
+libsolv: 
+libsolv:   install   libpcre2_8_0-10.44-1.any
+libsolv: 
+libsolv:   install   libpipeline1-1.5.6-1.any
+libsolv: 
+libsolv:   install   libpopt-common-1.19-1.any
+libsolv: 
+libsolv:   install   libpopt0-1.19-1.any
+libsolv: 
+libsolv:   install   libreadline7-8.2-2.any
+libsolv: 
+libsolv:   install   libsmartcols1-2.39.3-2.any
+libsolv: 
+libsolv:   install   libssl1.1-1.1.1w-1.any
+libsolv: 
+libsolv:   install   libssl3-3.0.14-1.any
+libsolv: 
+libsolv:   install   libstdc++6-12.4.0-3.any
+libsolv: 
+libsolv:   install   libtasn1_6-4.14-1.any
+libsolv: 
+libsolv:   install   libuchardet0-0.0.8-1.any
+libsolv: 
+libsolv:   install   libuuid1-2.39.3-2.any
+libsolv: 
+libsolv:   install   libzstd1-1.5.6-1.any
+libsolv: 
+libsolv:   install   login-1.13-1.any
+libsolv: 
+libsolv:   install   man-db-2.12.1-1.any
+libsolv: 
+libsolv:   install   mintty-3.7.4-1.any
+libsolv: 
+libsolv:   install   ncurses-6.5+20240427-1.any
+libsolv: 
+libsolv:   install   openssl-3.0.14-1.any
+libsolv: 
+libsolv:   install   p11-kit-0.23.20-1.any
+libsolv: 
+libsolv:   install   p11-kit-trust-0.23.20-1.any
+libsolv: 
+libsolv:   install   rebase-4.6.6-1.any
+libsolv: 
+libsolv:   install   run-1.3.4-2.any
+libsolv: 
+libsolv:   install   sed-4.9-1.any
+libsolv: 
+libsolv:   install   tar-1.35-2.any
+libsolv: 
+libsolv:   install   terminfo-6.5+20240427-1.any
+libsolv: 
+libsolv:   install   tzcode-2024a-1.any
+libsolv: 
+libsolv:   install   tzdata-2024a-1.any
+libsolv: 
+libsolv:   install   util-linux-2.39.3-2.any
+libsolv: 
+libsolv:   install   vim-minimal-9.0.2155-2.any
+libsolv: 
+libsolv:   install   which-2.20-2.any
+libsolv: 
+libsolv:   install   xz-5.6.2-1.any
+libsolv: 
+libsolv:   install   zlib0-1.3.1-1.any
+libsolv: 
+libsolv:   install   zstd-1.5.6-1.any
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.19045.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 75
+libsolv: edges: 201, edge space: 237
+libsolv: edge creation took 0 ms
+libsolv: cycle: --> 
+libsolv: cygwin-3.5.3-1.any ##401##> 
+libsolv: zlib0-1.3.1-1.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: cygwin-3.5.3-1.any ##401##> 
+libsolv: libzstd1-1.5.6-1.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: cygwin-3.5.3-1.any ##401##> 
+libsolv: libintl8-0.22.4-1.any --400--> 
+libsolv: libiconv2-1.17-1.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: cygwin-3.5.3-1.any ##401##> 
+libsolv: libgcc1-12.4.0-3.any --400--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: cygwin-3.5.3-1.any ##401##> 
+libsolv: bash-5.2.21-1.any --400--> 
+libsolv: libreadline7-8.2-2.any --400--> 
+libsolv: libncursesw10-6.5+20240427-1.any --400--> 
+libsolv: 
+libsolv: cycles broken: 5
+libsolv: cycle breaking took 0 ms
+libsolv: cycle edge creation took 0 ms
+libsolv: invedge space: 526
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 75 installed packages:
+libsolv:   - _autorebase-001091-1.any
+libsolv:   - alternatives-1.26-1.any
+libsolv:   - base-cygwin-3.8-2.any
+libsolv:   - base-files-4.3-3.any
+libsolv:   - bash-5.2.21-1.any
+libsolv:   - bzip2-1.0.8-1.any
+libsolv:   - ca-certificates-2024.2.66_v8.0.302-1.any
+libsolv:   - coreutils-9.0-1.any
+libsolv:   - crypto-policies-20190218-1.any
+libsolv:   - cygutils-1.4.17-1.any
+libsolv:   - cygwin-3.5.3-1.any
+libsolv:   - dash-0.5.12-5.any
+libsolv:   - diffutils-3.10-1.any
+libsolv:   - editrights-1.04-1.any
+libsolv:   - file-5.44-1.any
+libsolv:   - findutils-4.10.0-1.any
+libsolv:   - gawk-5.3.0-1.any
+libsolv:   - getent-2.18.90-5.any
+libsolv:   - grep-3.11-1.any
+libsolv:   - groff-1.23.0-1.any
+libsolv:   - gzip-1.13-1.any
+libsolv:   - hostname-3.13-1.any
+libsolv:   - info-7.1-1.any
+libsolv:   - ipc-utils-1.1-1.any
+libsolv:   - less-643-1.any
+libsolv:   - libargp-20230708-2.any
+libsolv:   - libattr1-2.5.1-1.20.g0981a7bfe487.any
+libsolv:   - libblkid1-2.39.3-2.any
+libsolv:   - libbz2_1-1.0.8-1.any
+libsolv:   - libfdisk1-2.39.3-2.any
+libsolv:   - libffi6-3.2.1-2.any
+libsolv:   - libgcc1-12.4.0-3.any
+libsolv:   - libgdbm6-1.18.1-1.any
+libsolv:   - libgmp10-6.3.0-1.any
+libsolv:   - libiconv2-1.17-1.any
+libsolv:   - libintl8-0.22.4-1.any
+libsolv:   - liblz4_1-1.9.4-1.any
+libsolv:   - liblzma5-5.6.2-1.any
+libsolv:   - libmpfr6-4.2.1-1.any
+libsolv:   - libncursesw10-6.5+20240427-1.any
+libsolv:   - libp11-kit0-0.23.20-1.any
+libsolv:   - libpcre1-8.45-1.any
+libsolv:   - libpcre2_8_0-10.44-1.any
+libsolv:   - libpipeline1-1.5.6-1.any
+libsolv:   - libpopt-common-1.19-1.any
+libsolv:   - libpopt0-1.19-1.any
+libsolv:   - libreadline7-8.2-2.any
+libsolv:   - libsmartcols1-2.39.3-2.any
+libsolv:   - libssl1.1-1.1.1w-1.any
+libsolv:   - libssl3-3.0.14-1.any
+libsolv:   - libstdc++6-12.4.0-3.any
+libsolv:   - libtasn1_6-4.14-1.any
+libsolv:   - libuchardet0-0.0.8-1.any
+libsolv:   - libuuid1-2.39.3-2.any
+libsolv:   - libzstd1-1.5.6-1.any
+libsolv:   - login-1.13-1.any
+libsolv:   - man-db-2.12.1-1.any
+libsolv:   - mintty-3.7.4-1.any
+libsolv:   - ncurses-6.5+20240427-1.any
+libsolv:   - openssl-3.0.14-1.any
+libsolv:   - p11-kit-0.23.20-1.any
+libsolv:   - p11-kit-trust-0.23.20-1.any
+libsolv:   - rebase-4.6.6-1.any
+libsolv:   - run-1.3.4-2.any
+libsolv:   - sed-4.9-1.any
+libsolv:   - tar-1.35-2.any
+libsolv:   - terminfo-6.5+20240427-1.any
+libsolv:   - tzcode-2024a-1.any
+libsolv:   - tzdata-2024a-1.any
+libsolv:   - util-linux-2.39.3-2.any
+libsolv:   - vim-minimal-9.0.2155-2.any
+libsolv:   - which-2.20-2.any
+libsolv:   - xz-5.6.2-1.any
+libsolv:   - zlib0-1.3.1-1.any
+libsolv:   - zstd-1.5.6-1.any
+libsolv: 
+2024/08/10 11:32:35 Augmented Transaction List:
+2024/08/10 11:32:35    0 install libpopt-common  1.19-1                   
+2024/08/10 11:32:35    1 install terminfo        6.5+20240427-1           
+2024/08/10 11:32:35    2 install tzdata          2024a-1                  
+2024/08/10 11:32:35    3 install cygwin          3.5.3-1                  
+2024/08/10 11:32:35    4 install libiconv2       1.17-1                   
+2024/08/10 11:32:35    5 install libintl8        0.22.4-1                 
+2024/08/10 11:32:35    6 install libncursesw10   6.5+20240427-1           
+2024/08/10 11:32:35    7 install libreadline7    8.2-2                    
+2024/08/10 11:32:35    8 install bash            5.2.21-1                 
+2024/08/10 11:32:35    9 install libgcc1         12.4.0-3                 
+2024/08/10 11:32:35   10 install crypto-policies 20190218-1               
+2024/08/10 11:32:35   11 install base-cygwin     3.8-2                    
+2024/08/10 11:32:35   12 install libzstd1        1.5.6-1                  
+2024/08/10 11:32:35   13 install zlib0           1.3.1-1                  
+2024/08/10 11:32:35   14 install which           2.20-2                   
+2024/08/10 11:32:35   15 install vim-minimal     9.0.2155-2               
+2024/08/10 11:32:35   16 install tzcode          2024a-1                  
+2024/08/10 11:32:35   17 install sed             4.9-1                    
+2024/08/10 11:32:35   18 install run             1.3.4-2                  
+2024/08/10 11:32:35   19 install ncurses         6.5+20240427-1           
+2024/08/10 11:32:35   20 install mintty          3.7.4-1                  
+2024/08/10 11:32:35   21 install login           1.13-1                   
+2024/08/10 11:32:35   22 install libuuid1        2.39.3-2                 
+2024/08/10 11:32:35   23 install libtasn1_6      4.14-1                   
+2024/08/10 11:32:35   24 install libstdc++6      12.4.0-3                 
+2024/08/10 11:32:35   25 install libsmartcols1   2.39.3-2                 
+2024/08/10 11:32:35   26 install libpopt0        1.19-1                   
+2024/08/10 11:32:35   27 install libpipeline1    1.5.6-1                  
+2024/08/10 11:32:35   28 install libpcre2_8_0    10.44-1                  
+2024/08/10 11:32:35   29 install libpcre1        8.45-1                   
+2024/08/10 11:32:35   30 install liblzma5        5.6.2-1                  
+2024/08/10 11:32:35   31 install liblz4_1        1.9.4-1                  
+2024/08/10 11:32:35   32 install libgmp10        6.3.0-1                  
+2024/08/10 11:32:35   33 install libgdbm6        1.18.1-1                 
+2024/08/10 11:32:35   34 install libffi6         3.2.1-2                  
+2024/08/10 11:32:35   35 install libbz2_1        1.0.8-1                  
+2024/08/10 11:32:35   36 install libblkid1       2.39.3-2                 
+2024/08/10 11:32:35   37 install libattr1        2.5.1-1.20.g0981a7bfe487 
+2024/08/10 11:32:35   38 install libargp         20230708-2               
+2024/08/10 11:32:35   39 install ipc-utils       1.1-1                    
+2024/08/10 11:32:35   40 install hostname        3.13-1                   
+2024/08/10 11:32:35   41 install gzip            1.13-1                   
+2024/08/10 11:32:35   42 install editrights      1.04-1                   
+2024/08/10 11:32:35   43 install diffutils       3.10-1                   
+2024/08/10 11:32:35   44 install dash            0.5.12-5                 
+2024/08/10 11:32:35   45 install alternatives    1.26-1                   
+2024/08/10 11:32:35   46 install libuchardet0    0.0.8-1                  
+2024/08/10 11:32:35   47 install cygutils        1.4.17-1                 
+2024/08/10 11:32:35   48 install grep            3.11-1                   
+2024/08/10 11:32:35   49 install less            643-1                    
+2024/08/10 11:32:35   50 install xz              5.6.2-1                  
+2024/08/10 11:32:35   51 install zstd            1.5.6-1                  
+2024/08/10 11:32:35   52 install libmpfr6        4.2.1-1                  
+2024/08/10 11:32:35   53 install libp11-kit0     0.23.20-1                
+2024/08/10 11:32:35   54 install file            5.44-1                   
+2024/08/10 11:32:35   55 install bzip2           1.0.8-1                  
+2024/08/10 11:32:35   56 install libfdisk1       2.39.3-2                 
+2024/08/10 11:32:35   57 install coreutils       9.0-1                    
+2024/08/10 11:32:35   58 install getent          2.18.90-5                
+2024/08/10 11:32:35   59 install rebase          4.6.6-1                  
+2024/08/10 11:32:35   60 install info            7.1-1                    
+2024/08/10 11:32:35   61 install _autorebase     001091-1                 
+2024/08/10 11:32:35   62 install groff           1.23.0-1                 
+2024/08/10 11:32:35   63 install gawk            5.3.0-1                  
+2024/08/10 11:32:35   64 install p11-kit-trust   0.23.20-1                
+2024/08/10 11:32:35   65 install p11-kit         0.23.20-1                
+2024/08/10 11:32:35   66 install tar             1.35-2                   
+2024/08/10 11:32:35   67 install util-linux      2.39.3-2                 
+2024/08/10 11:32:35   68 install findutils       4.10.0-1                 
+2024/08/10 11:32:35   69 install ca-certificates 2024.2.66_v8.0.302-1     
+2024/08/10 11:32:35   70 install man-db          2.12.1-1                 
+2024/08/10 11:32:35   71 install base-files      4.3-3                    
+2024/08/10 11:32:35   72 install libssl3         3.0.14-1                 
+2024/08/10 11:32:35   73 install libssl1.1       1.1.1w-1                 
+2024/08/10 11:32:35   74 install openssl         3.0.14-1                 
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz 4d69e6d7e196cdb4caad558c5d7543f706a4c6d7053476be861be07672506e378084126f22903deab8113557f757d2a07578f4a790ae316a2ea50ba612148a43
+2024/08/10 11:32:37 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/ncurses/terminfo/terminfo-6.5+20240427-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.5+20240427-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.5+20240427-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.5+20240427-1.tar.xz 128fb04f188bbf2af3060416193c9879a9cbbf7e5486febf851f35c3d9d00b9d61a0e2bf4be575d2308fd665a224ce5674485dcfd071125c3a8d199a4b88a042
+2024/08/10 11:32:37 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.5+20240427-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/noarch/release/tzdata/tzdata-2024a-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2024a-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2024a-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2024a-1.tar.xz e6ea6f6e80300c22d84d3a1b0b149c52a0996fb3722c71413d25e1ac41369d75dccdcf927609a0b6bb46b56107a7c7e118424e5a24d713a82063852cb36dcd21
+2024/08/10 11:32:38 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2024a-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/cygwin/cygwin-3.5.3-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.5.3-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.5.3-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.5.3-1.tar.xz 4a41ef765dad8bf7fc0676c55b6b97cf4b7b279ffdb294985412a0630ec1a7d6df0991ff1fd0045c8669d990594c81b475997ebd0edda371551cfb6a64879b4f
+2024/08/10 11:32:40 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.5.3-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz 7aa0c696b9b9224151a7c1ba8bed552b24cd406b531732197827cd7f5980419227850d593a6d79ae24ffa38f76dd1cd2ce94f1001332fdf801c178bc4f778ef8
+2024/08/10 11:32:41 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/gettext/libintl8/libintl8-0.22.4-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.22.4-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.22.4-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.22.4-1.tar.xz 54f40fdf65fd90bb7f02b3adcbd58e9c2862e731e27bf5064e6911ac68be3c35211add4c5901d74196763c791042cd1642af6a7d91263ed122f7f72faca7dd18
+2024/08/10 11:32:41 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.22.4-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/ncurses/libncursesw10/libncursesw10-6.5+20240427-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.5+20240427-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.5+20240427-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.5+20240427-1.tar.xz 08102f7a7083cb5663fecc46d819f2ece4123444a8f94c42300f03f7eebd40395f556c44b22ab58bf57321b44d9b8fb8b19358e535c7500d36e52d48b05dcca8
+2024/08/10 11:32:42 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.5+20240427-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz 1d27576cf49b056f35f90ad933e39c5d946bc271ddcd109daa98f95b97123b428256827889ff45ca8a76409cdb1afd0146e99c9b70150b302538356512acfe38
+2024/08/10 11:32:42 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/bash/bash-5.2.21-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bash/bash-5.2.21-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bash/bash-5.2.21-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bash/bash-5.2.21-1.tar.xz c3a5594f1c248dd27a3b5aa10c31fb1651072eae878479d3d8cab09c28354ce4509a2fe230f176ad200a6484a561bc10c2dc9c74c4e9f03164190dac2e683d65
+2024/08/10 11:32:43 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bash/bash-5.2.21-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/gcc/libgcc1/libgcc1-12.4.0-3.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-12.4.0-3.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-12.4.0-3.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-12.4.0-3.tar.zst cdeac418193be1c4d67773a2d0508132db2429307793bf750b6f29bf29b6f7d131dc4e1a64f177f8d350a9b1e5618cb7210f4412a30b3ea7184e81c89330e7b7
+2024/08/10 11:32:43 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-12.4.0-3.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz 44d50ff08528df786eeb26ec1d312445ec92d77ecc9f448a3b741f7647e187f11eabdc0b38f8ab8de803e21d2e610f67eb44de7554f3fa83f6e8172e609b0054
+2024/08/10 11:32:44 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz e03949b4ae6b692858e1d29fb764afbda990c07a6b70b0eb7219fc12f28dfba3cf7e757a7570c31e315be79f091b012d6a6ddafdb4b0b8961afe9af9f4977fab
+2024/08/10 11:32:44 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/zstd/libzstd1/libzstd1-1.5.6-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.6-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.6-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.6-1.tar.zst 2577af6041eb064ff380c0d196d63e837c5a4626d1f9cf8941de1d3fe8ff343bb56632e858c00fe6e447294c4f9eb831b2920774a428d266ccb8f53850887ae8
+2024/08/10 11:32:44 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.6-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/zlib/zlib0/zlib0-1.3.1-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3.1-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3.1-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3.1-1.tar.zst 03ad03e2f21f7d9dc525ad8368da1d50ff7ad1f5c7be7c9e17db17c0d5bc85007d0bc21cb4649ac554e224f5a3af84a9b2ccad8640d38c8fd826270dde4d020e
+2024/08/10 11:32:44 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3.1-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/which/which-2.20-2.tar.bz2 F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2 8d3804b90a7830afa6fb583b1d142adb0fbf1556426c7809033a57361bfcbdf2b05901b07bad5506586541531ccc352f8e3003a1855eace0a5f8483cb4110e42
+2024/08/10 11:32:45 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/vim/vim-minimal/vim-minimal-9.0.2155-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-9.0.2155-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-9.0.2155-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-9.0.2155-2.tar.xz 8d280af98463b7e4ffd281adcf1b2ad1a9a9782004da31e82eadd68c74b25f914887de9db8bface5fb60166c8678a344331f577c6fab4265f86a1d2f53122332
+2024/08/10 11:32:45 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-9.0.2155-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/tzcode/tzcode-2024a-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2024a-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2024a-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2024a-1.tar.xz 291265e2a90be5e1bfbe063c04dd6778a19500e88abb8bc0af177911595628f1080c9dcb1a04a9fb40372f37ec115ff619caa6e36b8f5ee0e526b113b81c97a5
+2024/08/10 11:32:45 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2024a-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/sed/sed-4.9-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/sed/sed-4.9-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/sed/sed-4.9-1.tar.xz 44a3a3f211a7974777980006fe6b683397dc0b8d6466e6662c82ca1adf7439984d8435f5cc2b6dd2bcf8185cdc9cb5049b0375c30c76e08ea0c1b2e83d7c2f74
+2024/08/10 11:32:46 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/run/run-1.3.4-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz 7e3156bbddc5f934fde3530879aa5186c9fdccb757ba848fc958e79e96534b336975f2882e413d5c18174628033a422157d25c48f8b5e90f0f1555ff2fa6343f
+2024/08/10 11:32:46 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/ncurses/ncurses-6.5+20240427-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.5+20240427-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.5+20240427-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.5+20240427-1.tar.xz e15664bdab3f4d82bac6481deaa66476adbe34404937079983b5165930fa18cec3aa0345b93fbb2c390f8304ef20f041cd47d268552b92d01a51adb6abde0fc5
+2024/08/10 11:32:46 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.5+20240427-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/mintty/mintty-3.7.4-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.7.4-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.7.4-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.7.4-1.tar.xz 25847ff1b2e10653c6833e3a350a22cc97f50f11cb9e67bf4d955ee0ded3c410cb0669692816b21b13e47bba928b9cbde14be3e288f9c0b9670e457157762c1f
+2024/08/10 11:32:47 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.7.4-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/login/login-1.13-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz 66acc3255962a27af8d701a8c02846f3b9180b7b1d65d946f6fb27cd24aeedc8e6a9a2601b419e981c94b356ef376a5c565ea31a4a220e5add9d70ae501a11d1
+2024/08/10 11:32:47 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/util-linux/libuuid1/libuuid1-2.39.3-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.39.3-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.39.3-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.39.3-2.tar.xz 3d2deec621bab49ec0bf29d39d362f70f470095f4df9c332f2a2873c45d390377833f391f2b22bc7c7a457614f7cb300d7d72458f60e491e2f2ece487b252903
+2024/08/10 11:32:47 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.39.3-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz 6ae80701119a73e8b8ade762fa67a163d4e46699294718c00e7f7dbfadbf38c7687f97a47b7d0fbff97b2870da9bc76115b414c24800269d03341d879c8b355c
+2024/08/10 11:32:48 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/gcc/libstdc++6/libstdc++6-12.4.0-3.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-12.4.0-3.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-12.4.0-3.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-12.4.0-3.tar.zst 340d4040dc3bc7aaf206313750faed76c0d3a7f81b60d1be67291363c8337305aee8e8ebc73a8c5b366984236848b5d4515e1f545e1e3fae06b64ccaf64d62b4
+2024/08/10 11:32:48 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-12.4.0-3.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.39.3-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.39.3-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.39.3-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.39.3-2.tar.xz f608a0f53a1a00292cff71163929eafa4ea34eaacfb55ce91fbae9ad70e08040e4f75f2a25942809aded345740c9d8e64f81ce38f12739e6fd2db088824a198e
+2024/08/10 11:32:48 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.39.3-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz e820a7bac13cdd3bff07673ac54dcb80f342c6a32917035f218ef255bdb707d654ee6a1684242d7ce8439eebf050ade6566f27f5118896fbf8e0171173b5bfee
+2024/08/10 11:32:48 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz f33aaf4c9f92c70e07f8a1bcc4c097bbaf07695978b5950db054f4ee335e8f1abe30dc9e5b0c3a405341fcaf121885047ab811db65a6906478d1f9ec34e002d5
+2024/08/10 11:32:49 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.44-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.44-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.44-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.44-1.tar.zst 0d51113d48f07ebe19d38a3768845e30e0306755a9ecf36e80f3c2357d6f0291e9e73e93e8a5600d42afaa7e40b81f78764e7f0487f3f86c1ff7da2976c969ce
+2024/08/10 11:32:49 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.44-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst 85c793ed3622a00b811773b94c45376882513e267b9f1d2a3efa0bc42ff86a4e4bebd8362a193d302e66ae9e5c9b93befc1bb1096c0fd397e2cd0f5632c808dd
+2024/08/10 11:32:49 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/xz/liblzma5/liblzma5-5.6.2-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.6.2-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.6.2-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.6.2-1.tar.zst 901bb86a2cf8063f72b1da3f5c6bd5670191ecd2537236ce31d97f3847ee508b4d75ed82a80ee137e382c4fca7d5d52c891c70d2f39840c67a243509f5c8319e
+2024/08/10 11:32:49 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.6.2-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz 70e6b0f3af2c5e04089c955b46c13293ab935ee4683e4690da0cebfffba4ba91614004aede99dd804f54e4def93461159f55d151e7fbb647d1ca97ca29e619cc
+2024/08/10 11:32:50 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst 947cd56e1945ddf180622b453f17e6655b4ee3e79fcc91238370a8826b88cd07c31d939f1ed7b87d91344d46fee90af2560105267a9207dcca800cba72459191
+2024/08/10 11:32:50 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz 97fd45a3ca4fb61e0126a67f0411601c8e7fd14181d20cd9db1e0e700b1468bed26830bc3656299442f4672c790db80e45420cf9b2a67993440d4109aaefda94
+2024/08/10 11:32:50 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz d549f129aba53013d86eb912818f8633c3b4e5b7fb50dff6cdec5a069722ff2a93c246e27f7c99b56b7fa9c0d5ab182aed5b64cb9df7e898f1c02c35fdb445d5
+2024/08/10 11:32:50 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz 165724df59f96ebafe952b2cd135a4a5d69ebea5948fe1417c1a2ee257e8324e94e57b4f445e279a545dbdbf946e6119a96edefdc3c57839cd5401063eaea0f2
+2024/08/10 11:32:50 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/util-linux/libblkid1/libblkid1-2.39.3-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.39.3-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.39.3-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.39.3-2.tar.xz 3287c86ac842dbe903bd47dcd2b8d4b13fe3622e6213def6e837212596b3f2ea2cabadcf484ffa91a3e2e10e8cf524d9e75e8e47feed4a0fa43b3e739098ed8b
+2024/08/10 11:32:51 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.39.3-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz 929bc4f693675b5a3ce05ef1355445e6dd95821e98c4fb6bb81a9329af0ea16e23ed81cb2d1345dcb2a65d5bca022c0f0734f8f3b33b8c5354dcd186a918bb99
+2024/08/10 11:32:51 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/libargp/libargp-20230708-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libargp/libargp-20230708-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libargp/libargp-20230708-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libargp/libargp-20230708-2.tar.xz e6fd87231a3c92e1295f8106126847738f2cd423eb221e5d1de9cc7cd559ebd19400829649e6cb78d30a03580c71bbc6e64a834793bc1c7baafb4c6c796ab827
+2024/08/10 11:32:51 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libargp/libargp-20230708-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz 374ef40c871d00eb3b4774c383bb85872443a2e8b9abf74b8b9b9b27984598abfb6284716c2d2cd264181e6d012cf7dc8cd04f6bab91f9b083f72e9b51e6226b
+2024/08/10 11:32:51 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/hostname/hostname-3.13-1.tar.bz2 F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2 75114326fa4575b8341434658a881feb81a6565e7e0adf8fd100dde87022d3818b5fc3df430bd9b3298d818a1d23f6b6c4bc7ff33efb3ded5f0ea0bf118c1aae
+2024/08/10 11:32:52 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/gzip/gzip-1.13-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz 36235fd88df8ed257c1b124bce97a7c290dfaae59cb7dcd50f0b1e999e1acb4fd2ad5d14fd10443475bab9af1d96910ac3dc77f682cc90907765b4f63b449b56
+2024/08/10 11:32:52 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/editrights/editrights-1.04-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz aadc188201441ee1ff5710df0e5550c8ca5cb65421d025c5845921510560a2875c317d1f35b6ea8abbb5077172c0de7fc8f2f55ae95dc8d1e59d26c963c93aa7
+2024/08/10 11:32:52 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/diffutils/diffutils-3.10-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.10-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.10-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.10-1.tar.xz eb2dc9a75d2eca28daac022bc8d5df50b9d1946b8262530b93374ee7aceb1b30cd35c8d9c8683de641084a6f2e7993d1fa11f5a7a86214f2b17fb89cf0f5ecd7
+2024/08/10 11:32:52 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.10-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/dash/dash-0.5.12-5.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.12-5.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.12-5.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.12-5.tar.xz 8891165224ca8531ad7b601309bc1a74f8b68dad24721060fd3db5d12ae504e3c96bbd0217006bbcbe0650d13283f04c1f58412bde54c40f19acb5291dfaced9
+2024/08/10 11:32:53 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.12-5.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/alternatives/alternatives-1.26-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.26-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.26-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.26-1.tar.xz 6881a91c04a46efaf6047c70ace4e424169f961e16abde495e2ecbd29309d0c6e2f187c293b77efe640b14d3aeb74ddd160e4d973e7fe621df2b3921c9a50047
+2024/08/10 11:32:53 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.26-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst 1fad5711590a82a8386c2492286dd9c0ad7cbe086aab249d07ad27277757327a6a67264e9718aef7d30307515462fe67d64f23582f08f0ced85a19cc8e0afe23
+2024/08/10 11:32:53 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz 7c1e4c913084bfff345f75e58ebc5cd40a1f316c5fa2e9754d033b189619e2926917298a0b1d52ac1e40c680bbfa96dfca2497a8971a604ce2344f2d61818312
+2024/08/10 11:32:53 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/grep/grep-3.11-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/grep/grep-3.11-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/grep/grep-3.11-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/grep/grep-3.11-1.tar.xz a2a0bd82ae361fd10db2220910b710afab25abadff6f731015681e50c42ba0ca0b8c66089ba03702facf12155107e60a2f014cace9de20a1e64d0d2bccaf703a
+2024/08/10 11:32:54 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/grep/grep-3.11-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/less/less-643-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/less/less-643-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/less/less-643-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/less/less-643-1.tar.xz c803955919429ef4fd654b6e298fb732aa12c23c4fee2ba70bf43695d7bd54abff69150b6cba6d9e7788a69fcde71e31a6b31df2a6928e4fb391c7d6fd68ca91
+2024/08/10 11:32:54 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/less/less-643-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/xz/xz-5.6.2-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.6.2-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.6.2-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.6.2-1.tar.zst b7df4252b2c5e9df7ab35f30189136bab0d5f33ae726c9cee0124c7c7cbf4ca99a87fa44ee1861de937eb2320298b2754fa8e9182c381335913c93953defaf18
+2024/08/10 11:32:55 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.6.2-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/zstd/zstd-1.5.6-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.6-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.6-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.6-1.tar.zst ae91f7218afcbc946cc03aa92e40a46ea9d86bdee883aff060623dd841cffe142c5c868877c3f0a272f3d913ce5389df59e45a1945879149d624fa10a2d17e6e
+2024/08/10 11:32:55 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.6-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst 3afd3529d2f91cef4680517773f202e9a60902ec04043a0f234d836cc738c30e22211b92c097fd5ae2fa29f8a857e872aa16cdc0c459357944eddff078507835
+2024/08/10 11:32:55 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz fcbf6cfa550a7ec78c84cdd579d06aae0d1fad16ac741e7e5e0e9a6f85b0d7c3b53c6af2ac7f8724e722e16d206cc108539f782b5da0b59615a4ee29a321e9fa
+2024/08/10 11:32:56 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/file/file-5.44-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/file/file-5.44-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/file/file-5.44-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/file/file-5.44-1.tar.xz 35f28aa3dd4defe22ab4f69ef47b7ec78c750012d415a0c4a3a060317ef9be5f6aa7f537db17a798555ec609a7ba63553512a128d6ed177edcc0b04a15058d6e
+2024/08/10 11:32:56 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/file/file-5.44-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz 647e7642c7346f23b6b1ca1c89359b2576e853ae70d8ff6445d484d4cb518f30650de67673ec79f983138a89dc63b71f7116817fabeb8e137eae628dee2e2722
+2024/08/10 11:32:56 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/util-linux/libfdisk1/libfdisk1-2.39.3-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.39.3-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.39.3-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.39.3-2.tar.xz 6adec1b682a8ca8c9f187b58fcfa601bdea5e38282e42af74d11ccf96f216380e5261c6cff088f83a70af595ef7be1778efde0d463126bd7970e31daf4fa9f3f
+2024/08/10 11:32:57 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.39.3-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/coreutils/coreutils-9.0-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz 530f47640d878f5953580f3556c492a93786191abe573322026b70206a46c7f17d05927784db3e7f2c044d1555f35941880316f7288b887eaec770a9eda4c687
+2024/08/10 11:32:57 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/getent/getent-2.18.90-5.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz b860f3d01f32da7312a0ce118bdaa53e2418c53f0ac5cfd52b3e4267f353fa21ae27fd2649eb9c6bff48b3d10a0a9f7bcaa2d644f770f0f3916f5d969beedd65
+2024/08/10 11:32:58 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/rebase/rebase-4.6.6-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz 9f3751c4687b09f3c286cf5c4522a0d976fce2d79ab471ab37560b15f14af84f7d13162b6102c02d0d60784448ff0586e76e9291675af4fa0c9320a3713633da
+2024/08/10 11:32:58 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/texinfo/info/info-7.1-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.1-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.1-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.1-1.tar.xz b879800f612feea7dd1f60f2919bdf2f798cadc1631e94b6e66c062209efbbe55a829b3898c8fa40ff26ba39825f90226c0759c452bd981b3ef8b150fae2e005
+2024/08/10 11:32:59 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.1-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/noarch/release/_autorebase/_autorebase-001091-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst a9416ce992ca57f3a6208f46517520d21dfac61988ac84cbb5b17b76e053a0845c15368ccb8ca9c483d8935f9e3db81568433c0d08d0265ec5e6916ea30f2831
+2024/08/10 11:32:59 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/groff/groff-1.23.0-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/groff/groff-1.23.0-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/groff/groff-1.23.0-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/groff/groff-1.23.0-1.tar.zst 197ebd1454badcc87c31e979bdf8af80ce2d8608fec3cb6febc931da99f200e826cfc8443104da43f1e2146ce54419569c78646d745b93e5483f286059812329
+2024/08/10 11:33:02 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/groff/groff-1.23.0-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/gawk/gawk-5.3.0-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.3.0-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.3.0-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.3.0-1.tar.xz 557f669c655f05f0c31431837511fb1e0ab52742f5ce2486808843ccca5b70929373aec484cea609724c8b87c03f6c81e36fab0eb66486b82ce4a9c6b6cef67c
+2024/08/10 11:33:03 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.3.0-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz a4b4f91825257abcb365aa2892cfa2525f9583f2649e6fc71a2b7afd68ec3b0a2f58cfc21bfa02c90569e900b283f494d9e6fae1f8ca63641b9c02a7b7076ebc
+2024/08/10 11:33:03 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz dfa1c60c64e94df9f104996db95abbb01194eb5e546d324e698e32639838dbc685053bfd1fe069d792e7064edc191922638935a8f6a438a1653186750dbc854e
+2024/08/10 11:33:04 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/tar/tar-1.35-2.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tar/tar-1.35-2.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tar/tar-1.35-2.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tar/tar-1.35-2.tar.zst 007c7df12bc27ca14862a925680e2b2ff616a5149262b153889e6f580f3db492f98da49b5f34a8c4234194ee25021b67e9a84c987c96c5d6baa7ee0b3ea02425
+2024/08/10 11:33:04 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tar/tar-1.35-2.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/util-linux/util-linux-2.39.3-2.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.39.3-2.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.39.3-2.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.39.3-2.tar.xz 44778464431b29c5bf1e5ef3d91afc1539d837d8670f0dcf1b467c7d0303268f91f0615565e4d63b67d9f124a13541bd38b79e2707fdff49e2465e9330d3b2bc
+2024/08/10 11:33:05 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.39.3-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/findutils/findutils-4.10.0-1.tar.xz F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.10.0-1.tar.xz.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.10.0-1.tar.xz
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.10.0-1.tar.xz 32d42bb20916ae989bdb06af0ae30fab0268c559bbca7d249e223517b5f8af6b39307ae763213a4bf16bb451b0bb215d16a678b080097f4f6157d4fbcd799047
+2024/08/10 11:33:06 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.10.0-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/noarch/release/ca-certificates/ca-certificates-2024.2.66_v8.0.302-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2024.2.66_v8.0.302-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2024.2.66_v8.0.302-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2024.2.66_v8.0.302-1.tar.zst f37c310b31f9bddb4083ecd41dcf43de6d87b6cbcd9ca37fc636a2d915c0136ecd4f07a2ecae5f33b61d9f9654546c4e5f616c457b4fcb436b3758bd1c04704c
+2024/08/10 11:33:06 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2024.2.66_v8.0.302-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/man-db/man-db-2.12.1-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.12.1-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.12.1-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.12.1-1.tar.zst 00b68136462168b8cd970360aeb7bfd1bd70f0f7e00b28a9fbaec60a2ad7b7dd5583bd16124241c823e3bf221ce83ba12fe3570a6bff12eb97c7378352b2bf4e
+2024/08/10 11:33:07 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.12.1-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/noarch/release/base-files/base-files-4.3-3.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst dfafbe28fbe89d9b72a2eeb10901712e04de71d9089a85cfd2b8d45ffd739bdd49dadb7b57d098f01b8902456f5b839e9d4a10dbd6a8001573e035fde6797b63
+2024/08/10 11:33:07 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/openssl/libssl3/libssl3-3.0.14-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.14-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.14-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.14-1.tar.zst d89958c31936f0c163ee51bac062d5571701ee1cf1be6ac0786dc8e5ea1fd2c77630e29929946faf7b02702207b53d59ced59a8a9e0b6d3e02f7f6a881d5e59e
+2024/08/10 11:33:08 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.14-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1w-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1w-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1w-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1w-1.tar.zst d03c5050e1cf5c8420824e5f825916f460ada86df695b0c8dd9eff7f1d94fe7131b35ed2c3d94972aad109610236f50c874a087bbf7bb1485807f59bddafa047
+2024/08/10 11:33:08 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1w-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/openssl/openssl-3.0.14-1.tar.zst F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-3.0.14-1.tar.zst.tmp
+Checking SHA512 for file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-3.0.14-1.tar.zst
+SHA512 verified OK: file://F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-3.0.14-1.tar.zst 50f499cef8f99540fb6734ab4dbdc661c2c15791e35e1d677bfdd013c308e8bd49429bcdfa12ba7e51c754a056c4699f2295fccaeb0839f4bfa28510f17fac19
+2024/08/10 11:33:09 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-3.0.14-1.tar.zst
+2024/08/10 11:33:16 note: Download Complete
+2024/08/10 11:33:16 Ending cygwin install

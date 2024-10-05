@@ -1,0 +1,198 @@
+2024/08/10 11:27:54 Starting cygwin install, version 2.931
+2024/08/10 11:27:54 User has backup/restore rights
+2024/08/10 11:27:54 User has symlink creation right
+2024/08/10 11:27:54 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2024/08/10 11:27:54 Current Directory: F:\OTHER_MY_PROJECTS\Translator-Windows\Soft
+2024/08/10 11:28:02 source: from local dir
+2024/08/10 11:28:14 mbox yesno: You should not choose a root path that include spaces in directory names.  Proceed anyway?
+2024/08/10 11:28:24 source: from local dir
+2024/08/10 11:28:26 source: from local dir
+2024/08/10 11:28:27 source: from local dir
+2024/08/10 11:28:28 mbox : Are you sure you want to exit setup? Any current download or installation will be aborted.
+2024/08/10 11:28:29 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2024/08/10 11:28:29 Ending cygwin install
+2024/08/10 11:28:34 Starting cygwin install, version 2.931
+2024/08/10 11:28:34 User has backup/restore rights
+2024/08/10 11:28:34 User has symlink creation right
+2024/08/10 11:28:34 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2024/08/10 11:28:34 Current Directory: F:\OTHER_MY_PROJECTS\Translator-Windows\Soft
+2024/08/10 11:28:47 source: network install
+2024/08/10 11:28:57 mbox yesno: You should not choose a root path that include spaces in directory names.  Proceed anyway?
+2024/08/10 11:29:02 source: network install
+2024/08/10 11:29:03 mbox : Are you sure you want to exit setup? Any current download or installation will be aborted.
+2024/08/10 11:29:04 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2024/08/10 11:29:04 Ending cygwin install
+2024/08/10 11:29:09 Starting cygwin install, version 2.931
+2024/08/10 11:29:09 User has backup/restore rights
+2024/08/10 11:29:09 User has symlink creation right
+2024/08/10 11:29:09 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2024/08/10 11:29:09 Current Directory: F:\OTHER_MY_PROJECTS\Translator-Windows\Soft
+2024/08/10 11:29:11 source: network install
+2024/08/10 11:29:16 source: from local dir
+2024/08/10 11:29:20 root: C:\cygwin64 system
+2024/08/10 11:29:20 Changing gid to Administrators
+2024/08/10 11:31:36 source: download
+2024/08/10 11:31:38 Selected local directory: F:\OTHER_MY_PROJECTS\Translator-Windows\Soft
+2024/08/10 11:31:43 source: download
+2024/08/10 11:31:44 Selected local directory: F:\OTHER_MY_PROJECTS\Translator-Windows\Soft
+2024/08/10 11:31:47 net: Preconfig
+2024/08/10 11:31:55 site: https://mirrors.163.com/cygwin/
+2024/08/10 11:31:59 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2024/08/10 11:31:59 mbox note: This setup is version 2.931, but setup.ini claims version 2.932 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2024/08/10 11:32:08 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2024/08/10 11:32:09 solving: 38 tasks, update: yes, use test packages: no
+2024/08/10 11:32:35 solving: 75 tasks, update: no, use test packages: no
+2024/08/10 11:32:35 Augmented Transaction List:
+2024/08/10 11:32:35    0 install libpopt-common  1.19-1                   
+2024/08/10 11:32:35    1 install terminfo        6.5+20240427-1           
+2024/08/10 11:32:35    2 install tzdata          2024a-1                  
+2024/08/10 11:32:35    3 install cygwin          3.5.3-1                  
+2024/08/10 11:32:35    4 install libiconv2       1.17-1                   
+2024/08/10 11:32:35    5 install libintl8        0.22.4-1                 
+2024/08/10 11:32:35    6 install libncursesw10   6.5+20240427-1           
+2024/08/10 11:32:35    7 install libreadline7    8.2-2                    
+2024/08/10 11:32:35    8 install bash            5.2.21-1                 
+2024/08/10 11:32:35    9 install libgcc1         12.4.0-3                 
+2024/08/10 11:32:35   10 install crypto-policies 20190218-1               
+2024/08/10 11:32:35   11 install base-cygwin     3.8-2                    
+2024/08/10 11:32:35   12 install libzstd1        1.5.6-1                  
+2024/08/10 11:32:35   13 install zlib0           1.3.1-1                  
+2024/08/10 11:32:35   14 install which           2.20-2                   
+2024/08/10 11:32:35   15 install vim-minimal     9.0.2155-2               
+2024/08/10 11:32:35   16 install tzcode          2024a-1                  
+2024/08/10 11:32:35   17 install sed             4.9-1                    
+2024/08/10 11:32:35   18 install run             1.3.4-2                  
+2024/08/10 11:32:35   19 install ncurses         6.5+20240427-1           
+2024/08/10 11:32:35   20 install mintty          3.7.4-1                  
+2024/08/10 11:32:35   21 install login           1.13-1                   
+2024/08/10 11:32:35   22 install libuuid1        2.39.3-2                 
+2024/08/10 11:32:35   23 install libtasn1_6      4.14-1                   
+2024/08/10 11:32:35   24 install libstdc++6      12.4.0-3                 
+2024/08/10 11:32:35   25 install libsmartcols1   2.39.3-2                 
+2024/08/10 11:32:35   26 install libpopt0        1.19-1                   
+2024/08/10 11:32:35   27 install libpipeline1    1.5.6-1                  
+2024/08/10 11:32:35   28 install libpcre2_8_0    10.44-1                  
+2024/08/10 11:32:35   29 install libpcre1        8.45-1                   
+2024/08/10 11:32:35   30 install liblzma5        5.6.2-1                  
+2024/08/10 11:32:35   31 install liblz4_1        1.9.4-1                  
+2024/08/10 11:32:35   32 install libgmp10        6.3.0-1                  
+2024/08/10 11:32:35   33 install libgdbm6        1.18.1-1                 
+2024/08/10 11:32:35   34 install libffi6         3.2.1-2                  
+2024/08/10 11:32:35   35 install libbz2_1        1.0.8-1                  
+2024/08/10 11:32:35   36 install libblkid1       2.39.3-2                 
+2024/08/10 11:32:35   37 install libattr1        2.5.1-1.20.g0981a7bfe487 
+2024/08/10 11:32:35   38 install libargp         20230708-2               
+2024/08/10 11:32:35   39 install ipc-utils       1.1-1                    
+2024/08/10 11:32:35   40 install hostname        3.13-1                   
+2024/08/10 11:32:35   41 install gzip            1.13-1                   
+2024/08/10 11:32:35   42 install editrights      1.04-1                   
+2024/08/10 11:32:35   43 install diffutils       3.10-1                   
+2024/08/10 11:32:35   44 install dash            0.5.12-5                 
+2024/08/10 11:32:35   45 install alternatives    1.26-1                   
+2024/08/10 11:32:35   46 install libuchardet0    0.0.8-1                  
+2024/08/10 11:32:35   47 install cygutils        1.4.17-1                 
+2024/08/10 11:32:35   48 install grep            3.11-1                   
+2024/08/10 11:32:35   49 install less            643-1                    
+2024/08/10 11:32:35   50 install xz              5.6.2-1                  
+2024/08/10 11:32:35   51 install zstd            1.5.6-1                  
+2024/08/10 11:32:35   52 install libmpfr6        4.2.1-1                  
+2024/08/10 11:32:35   53 install libp11-kit0     0.23.20-1                
+2024/08/10 11:32:35   54 install file            5.44-1                   
+2024/08/10 11:32:35   55 install bzip2           1.0.8-1                  
+2024/08/10 11:32:35   56 install libfdisk1       2.39.3-2                 
+2024/08/10 11:32:35   57 install coreutils       9.0-1                    
+2024/08/10 11:32:35   58 install getent          2.18.90-5                
+2024/08/10 11:32:35   59 install rebase          4.6.6-1                  
+2024/08/10 11:32:35   60 install info            7.1-1                    
+2024/08/10 11:32:35   61 install _autorebase     001091-1                 
+2024/08/10 11:32:35   62 install groff           1.23.0-1                 
+2024/08/10 11:32:35   63 install gawk            5.3.0-1                  
+2024/08/10 11:32:35   64 install p11-kit-trust   0.23.20-1                
+2024/08/10 11:32:35   65 install p11-kit         0.23.20-1                
+2024/08/10 11:32:35   66 install tar             1.35-2                   
+2024/08/10 11:32:35   67 install util-linux      2.39.3-2                 
+2024/08/10 11:32:35   68 install findutils       4.10.0-1                 
+2024/08/10 11:32:35   69 install ca-certificates 2024.2.66_v8.0.302-1     
+2024/08/10 11:32:35   70 install man-db          2.12.1-1                 
+2024/08/10 11:32:35   71 install base-files      4.3-3                    
+2024/08/10 11:32:35   72 install libssl3         3.0.14-1                 
+2024/08/10 11:32:35   73 install libssl1.1       1.1.1w-1                 
+2024/08/10 11:32:35   74 install openssl         3.0.14-1                 
+2024/08/10 11:32:37 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+2024/08/10 11:32:37 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.5+20240427-1.tar.xz
+2024/08/10 11:32:38 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2024a-1.tar.xz
+2024/08/10 11:32:40 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.5.3-1.tar.xz
+2024/08/10 11:32:41 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+2024/08/10 11:32:41 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.22.4-1.tar.xz
+2024/08/10 11:32:42 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.5+20240427-1.tar.xz
+2024/08/10 11:32:42 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2024/08/10 11:32:43 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bash/bash-5.2.21-1.tar.xz
+2024/08/10 11:32:43 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-12.4.0-3.tar.zst
+2024/08/10 11:32:44 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2024/08/10 11:32:44 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+2024/08/10 11:32:44 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.6-1.tar.zst
+2024/08/10 11:32:44 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3.1-1.tar.zst
+2024/08/10 11:32:45 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2024/08/10 11:32:45 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-9.0.2155-2.tar.xz
+2024/08/10 11:32:45 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2024a-1.tar.xz
+2024/08/10 11:32:46 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+2024/08/10 11:32:46 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2024/08/10 11:32:46 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.5+20240427-1.tar.xz
+2024/08/10 11:32:47 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.7.4-1.tar.xz
+2024/08/10 11:32:47 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2024/08/10 11:32:47 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.39.3-2.tar.xz
+2024/08/10 11:32:48 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2024/08/10 11:32:48 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-12.4.0-3.tar.zst
+2024/08/10 11:32:48 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.39.3-2.tar.xz
+2024/08/10 11:32:48 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+2024/08/10 11:32:49 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+2024/08/10 11:32:49 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.44-1.tar.zst
+2024/08/10 11:32:49 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst
+2024/08/10 11:32:49 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.6.2-1.tar.zst
+2024/08/10 11:32:50 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2024/08/10 11:32:50 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+2024/08/10 11:32:50 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2024/08/10 11:32:50 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2024/08/10 11:32:50 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2024/08/10 11:32:51 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.39.3-2.tar.xz
+2024/08/10 11:32:51 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz
+2024/08/10 11:32:51 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libargp/libargp-20230708-2.tar.xz
+2024/08/10 11:32:51 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+2024/08/10 11:32:52 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2024/08/10 11:32:52 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz
+2024/08/10 11:32:52 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+2024/08/10 11:32:52 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.10-1.tar.xz
+2024/08/10 11:32:53 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.12-5.tar.xz
+2024/08/10 11:32:53 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.26-1.tar.xz
+2024/08/10 11:32:53 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst
+2024/08/10 11:32:53 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+2024/08/10 11:32:54 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/grep/grep-3.11-1.tar.xz
+2024/08/10 11:32:54 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/less/less-643-1.tar.xz
+2024/08/10 11:32:55 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.6.2-1.tar.zst
+2024/08/10 11:32:55 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.6-1.tar.zst
+2024/08/10 11:32:55 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst
+2024/08/10 11:32:56 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2024/08/10 11:32:56 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/file/file-5.44-1.tar.xz
+2024/08/10 11:32:56 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2024/08/10 11:32:57 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.39.3-2.tar.xz
+2024/08/10 11:32:57 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2024/08/10 11:32:58 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+2024/08/10 11:32:58 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+2024/08/10 11:32:59 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.1-1.tar.xz
+2024/08/10 11:32:59 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2024/08/10 11:33:02 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/groff/groff-1.23.0-1.tar.zst
+2024/08/10 11:33:03 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.3.0-1.tar.xz
+2024/08/10 11:33:03 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2024/08/10 11:33:04 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2024/08/10 11:33:04 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tar/tar-1.35-2.tar.zst
+2024/08/10 11:33:05 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.39.3-2.tar.xz
+2024/08/10 11:33:06 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.10.0-1.tar.xz
+2024/08/10 11:33:06 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2024.2.66_v8.0.302-1.tar.zst
+2024/08/10 11:33:07 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.12.1-1.tar.zst
+2024/08/10 11:33:07 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2024/08/10 11:33:08 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.14-1.tar.zst
+2024/08/10 11:33:08 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1w-1.tar.zst
+2024/08/10 11:33:09 Downloaded F:\OTHER_MY_PROJECTS\Translator-Windows\Soft/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-3.0.14-1.tar.zst
+2024/08/10 11:33:16 note: Download Complete
+2024/08/10 11:33:16 Ending cygwin install
