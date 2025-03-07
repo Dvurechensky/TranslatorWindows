@@ -1,8 +1,8 @@
 <p align="center">
     <p align="center">
-        <a href="https://sites.google.com/view/dvurechensky" target="_blank"></a><img alt="Static Badge" src="https://img.shields.io/badge/Dvurechensky-N-blue">
-        <img src="https://img.shields.io/static/v1?style=for-the-badge&message=AutoHotkey&color=334455&logo=AutoHotkey&logoColor=FFFFFF&label=">
-        <img src="https://img.shields.io/badge/Bash-%7C-blue?logo=shell&logoColor=FFFF00">
+        <a href="https://sites.google.com/view/dvurechensky" target="_blank"></a><img alt="Static Badge" src="https://shields.dvurechensky.pro/badge/Dvurechensky-N-blue">
+        <img src="https://shields.dvurechensky.pro/static/v1?style=for-the-badge&message=AutoHotkey&color=334455&logo=AutoHotkey&logoColor=FFFFFF&label=">
+        <img src="https://shields.dvurechensky.pro/badge/Bash-%7C-blue?logo=shell&logoColor=FFFF00">
     </p>
 </p>
 
